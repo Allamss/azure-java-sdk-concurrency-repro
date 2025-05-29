@@ -11,6 +11,7 @@ Minimal reproduction repository for 'stream was reset: REFUSED_STREAM' errors wh
 3. run main()
 
 ## Behavior
+```
 UncheckedIOException: okhttp3.internal.http2.StreamResetException: stream was reset: REFUSED_STREAM
 INFO com.azure.core.http.policy.RetryPolicy - {"az.sdk.message":"Retry attempts have been exhausted.","tryCount":3}
 === TEST RESULTS STATISTICS ===
@@ -24,3 +25,4 @@ SUCCESS RATE: 71.12%
 CONNECTION RESET RATE: 0.00%
 TEST END TIME: 2025-05-29 11:58:50
 ========================================
+```
